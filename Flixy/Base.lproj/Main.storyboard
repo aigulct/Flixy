@@ -72,6 +72,7 @@
                                             <outlet property="posterView" destination="rab-W2-yWm" id="Cgi-Ee-6T2"/>
                                             <outlet property="synopsisLabel" destination="PgI-JG-bze" id="KXG-5D-O7a"/>
                                             <outlet property="titleLabel" destination="Mud-42-UbO" id="c3f-hF-FbE"/>
+                                            <segue destination="c8D-EU-Jg2" kind="show" id="n9x-JQ-hMB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -95,16 +96,17 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="88.392857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Movie Detail View Controller-->
         <scene sceneID="uRt-bQ-nBN">
             <objects>
-                <viewController id="c8D-EU-Jg2" sceneMemberID="viewController">
+                <viewController id="c8D-EU-Jg2" customClass="MovieDetailViewController" customModule="Flixy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oTN-dM-S2C">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="0CW-ut-TSU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jUu-ue-6NG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTR-kv-nwE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
